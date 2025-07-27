@@ -6,7 +6,7 @@ import dataBaseImage from "../assets/images/databaseImage.png"
 
 import cssImage from "../assets/skillsImage/cssImage.jpeg"
 // import htmImage from "../assets/skillsImage/htmlImage.jpeg"
-import jsImage from "../assets/skillsImage/jsImage.jpeg"
+// import jsImage from "../assets/skillsImage/jsImage.jpeg"
 import nodeImage from "../assets/skillsImage/nodeImage.jpeg"
 import reactImage from "../assets/skillsImage/reactImage.jpeg"
 import expressImage from "../assets/skillsImage/expressjsImage.jpeg"
@@ -29,9 +29,9 @@ infromations.skills = [
         meInThat: "I love building beautiful and responsive UIs. Crafting pixel-perfect designs, smooth interactions, and blazing-fast frontend apps is my jam.",
         image: frontendImage,
         skillImages: [
-            { name: "HTML", images: htmImage },
-            // { name: "CSS", images: cssImage },
-            { name: "JavaScript", images: jsImage },
+            // { name: "HTML", images: htmImage },
+            { name: "CSS", images: cssImage },
+            // { name: "JavaScript", images: jsImage },
             { name: "React", images: reactImage },
         ],
     },
