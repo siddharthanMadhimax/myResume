@@ -5,8 +5,8 @@ import dataBaseImage from "../assets/images/databaseImage.png"
 
 
 import cssImage from "../assets/skillsImage/cssImage.jpeg"
-import HTMLIMAGE from "../assets/skillsImage/HTMLIMAGE.jpeg"
-import JSIMAGE from "../assets/skillsImage/JSIMAGE.jpeg"
+import HTMLIMAGE from "../assets/images/html5image.png"
+import JSIMAGE from "../assets/images/jsimage.png"
 import nodeImage from "../assets/skillsImage/nodeImage.jpeg"
 import reactImage from "../assets/skillsImage/reactImage.jpeg"
 import expressImage from "../assets/skillsImage/expressjsImage.jpeg"
