@@ -1,13 +1,11 @@
 
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
-import { SiExpress, SiMongodb, SiMongoose, SiJsonwebtokens, SiFastify } from "react-icons/si";
 import frontendImage from "../assets/images/backendSkill.png"
 import backendImage from "../assets/images/imageBackEnd.png"
 import dataBaseImage from "../assets/images/databaseImage.png"
 
 
 import cssImage from "../assets/skillsImage/cssImage.jpeg"
-import htmImage from "../assets/skillsImage/htmlImage.jpeg"
+// import htmImage from "../assets/skillsImage/htmlImage.jpeg"
 import jsImage from "../assets/skillsImage/jsImage.jpeg"
 import nodeImage from "../assets/skillsImage/nodeImage.jpeg"
 import reactImage from "../assets/skillsImage/reactImage.jpeg"
@@ -32,7 +30,7 @@ infromations.skills = [
         image: frontendImage,
         skillImages: [
             { name: "HTML", images: htmImage },
-            { name: "CSS", images: cssImage },
+            // { name: "CSS", images: cssImage },
             { name: "JavaScript", images: jsImage },
             { name: "React", images: reactImage },
         ],
