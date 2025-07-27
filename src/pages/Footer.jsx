@@ -28,7 +28,7 @@ const Footer = () => {
         >
           <h3 className="text-lg font-medium mb-3">Quick Links</h3>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li><a href="#about" className="hover:text-white transition">About</a></li>
+            <li><a href="#skills" className="hover:text-white transition">About</a></li>
             <li><a href="#contact" className="hover:text-white transition">Contact</a></li>
           </ul>
         </motion.div>
@@ -49,10 +49,7 @@ const Footer = () => {
         </motion.div>
       </div>
 
-      {/* Bottom line */}
-      <div className="mt-10 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-        &copy; {new Date().getFullYear()}  All rights reserved.
-      </div>
+      
     </footer>
   )
 }

@@ -29,7 +29,7 @@ const Experience = () => {
                 {
                     informations.experience.map((item) => {
                         return (
-                            <div>
+                            <div key={item.id}>
                                 {
                                     item.id == selectedCompany && (
                                         <div className="flex flex-wrap justify-between gap-6">
@@ -75,9 +75,9 @@ const Experience = () => {
 
                                                 <div className='flex gap-2 max-sm:flex-col'>
                                                     {
-                                                        item.techStack.map((item) => {
+                                                        item.techStack.map((item,index) => {
                                                             return (
-                                                                <div className='text-xl font-bold text-textBlue'>
+                                                                <div key={index} className='text-xl font-bold text-textBlue'>
                                                                     {item},
                                                                 </div>
                                                             )
@@ -106,7 +106,7 @@ const Experience = () => {
                 {
                     informations.experience.map((item) => {
                         return (
-                            <div className='mt-4 text-center flex items-center justify-center'>
+                            <div key={item.id} className='mt-4 text-center flex items-center justify-center'>
                                 <motion.div
                                     onClick={() => setSelectedCompany(item.id)}
                                     className={`rounded-lg h-[10px] cursor-pointer`}

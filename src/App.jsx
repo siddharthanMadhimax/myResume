@@ -1,30 +1,26 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import Home from "./pages/Home"
-import Projects from "./pages/projects/ProjectSection"
-import Skills from "./pages/Skills"
-import Experience from './pages/Experience'
-import Footer from './pages/Footer'
-import ContactForm from './pages/Contact'
+import React from 'react';
+import Home from "./pages/Home";
+import Projects from "./pages/projects/ProjectSection";
+import Skills from "./pages/Skills";
+import Experience from './pages/Experience';
+import Footer from './pages/Footer';
+import ContactForm from './pages/Contact';
+import Header from './pages/Header';
 
 const App = () => {
   return (
-    <Routes>
-      {/* Main scroll-based portfolio */}
-      <Route path="/" element={
-        <div className='bg-black text-white scroll-smooth overflow-x-hidden overflow-y-auto h-screen'>
-          <Home />
-          <Skills />
-          <Projects/>
-          <Experience/>
-          <ContactForm/>
-          <Footer/>
-        </div>
-      } />
+    <div className="bg-black text-white scroll-smooth overflow-x-hidden overflow-y-auto h-screen">
+      <Header />
+      <main>
+        <section id="home"><Home /></section>
+        <section id="skills" className="scroll-mt-12"><Skills /></section>
+        <section id="projects"><Projects /></section>
+        <section id="experience"><Experience /></section>
+        <section id="contact"><ContactForm /></section>
+        <Footer />
+      </main>
+    </div>
+  );
+};
 
-      {/* <Route element={<ProjectDetails/>} path='project-details/:id'/> */}
-    </Routes>
-  )
-}
-
-export default App
+export default App;
