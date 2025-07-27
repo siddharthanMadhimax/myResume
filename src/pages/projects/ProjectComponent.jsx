@@ -1,9 +1,7 @@
 import React, { useRef } from 'react';
 import gsap from 'gsap';
 import Tilt from "react-parallax-tilt"
-import { useNavigate } from 'react-router-dom';
 import { Code } from 'lucide-react';
-import Item from 'antd/es/list/Item';
 
 
 
